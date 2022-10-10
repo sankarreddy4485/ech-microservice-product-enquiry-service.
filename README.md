@@ -1,2 +1,2 @@
-# ech-microservice-product-enquiry-service.
+# tech-microservice-product-enquiry-service.
 Product -enquiry
