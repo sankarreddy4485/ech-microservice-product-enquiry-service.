@@ -10,6 +10,6 @@ import com.tech.microservice.productenquiryservice.bean.ProductEnquiryBean;
 public interface ProductStockClient {
 	
 	@GetMapping("/check-product-stock/productName/{productName}/ProductAvailability/{productAvailability}")
-	public ProductEnquiryBean checkProductAvailabilty(@PathVariable String productName,@PathVariable String productAvailability); 
+	public ProductEnquiryBean checkProductAvailabilty(@PathVariable String productName,@PathVariable String productAvailability) throws Exception; 
 
 }
